@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="./styles.css">
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+<body>
+    <h1>User Location Project</h1>
+    
+    <p>Your IP address: <span id="ip-address"></span></p>
+    
+    <button id="info-button">Get Information</button>
+    
+    <div id="map-container">
+        <iframe id="map-iframe" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    
+    <p>Local Time: <span id="local-time"></span></p>
+    
+    <input type="text" id="search-input" placeholder="Search post offices">
+    
+    <ul id="post-offices"></ul>
+    
+    <script src="script.js"></script>
+</body>
+</html>
